@@ -6,13 +6,16 @@
     <title>Edit Post</title>
 </head>
 <body>
+    <div class="form-container">
     <h2>Edit Your Post</h2>
-    <p>Post id : <%= post.id %></p>
-    <p>Post username : @<%= post.username %></p>
+    <p><strong>Post ID:</strong> <%= post.id %></p>
+    <p><strong>Username:</strong> @<%= post.username %></p>
     
     <form method="post" action="/posts/<%= post.id %>?_method=PATCH">
-        <textarea rows="10" cols="35" name="content"><%= post.content %></textarea>
-        <button>Submit</button>
+        <textarea rows="5" name="content" required><%= post.content %></textarea>
+        <button>Update Post</button>
     </form>
+    <a href="/posts">Back</a>
+    </div>
 </body>
 </html>
