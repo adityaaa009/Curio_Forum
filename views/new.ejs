@@ -6,10 +6,14 @@
     <title>Create new post</title>
 </head>
 <body>
+    <div class="form-container">
+    <h2>Create New Post</h2>
     <form method="post" action="/posts">
-        <input placeholder="enter username" name="username"> <br><br>
-        <textarea placeholder="write your content" name="content" > </textarea> <br>
+        <input placeholder="Enter username" name="username" required> <br>
+        <textarea placeholder="Write your content" name="content" rows="5" required></textarea>
         <button>Submit Post</button>
     </form>
+    <a href="/posts">Back</a>
+    </div>
 </body>
 </html>
