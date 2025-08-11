@@ -1,11 +1,98 @@
-h1{
-    color: maroon;
+/* Global reset & typography */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7e7e7;
+    color: #333;
 }
 
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for all content */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    color: maroon;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #444;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Post card */
 .post {
-    background-color: blanchedalmond;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 .user {
     font-style: italic;
+    color: #666;
 }
+
+.content {
+    margin-top: 8px;
+    color: #333;
+}
+
+/* Links and buttons */
+a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 0.9rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+button:hover {
+    background-color: #a00000;
+}
+
+/* Forms */
+form {
+    margin-top: 10px;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: vertical;
+}
+
