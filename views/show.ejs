@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h2>Here's your post in detail</h2>
-    <p>Post id : <%= post.id %></p>
-    <div class="post">
-        <h3 class="user">@<%= post.username %></h3>
-        <h4><%= post.content %></h4>
+    <div class="container">
+        <h2>Here's your post in detail</h2>
+        <p>Post id : <%= post.id %></p>
+        <div class="post">
+            <h3 class="user">@<%= post.username %></h3>
+            <p class="content"><%= post.content %></p>
+        </div>
+        <a href="/posts">Back to All Posts</a>
     </div>
-    <!-- Optional: Link back to all posts -->
-    <a href="/posts">Back to All Posts</a>
 </body>
 </html>
