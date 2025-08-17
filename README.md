@@ -1,1 +1,1 @@
-Access the hosted website here - https://curio-forum.onrender.com/posts
+LIVE Project - https://curio-forum.onrender.com/posts
